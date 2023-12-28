@@ -1,0 +1,68 @@
+body {
+		--background-color: #101010;
+		background-color: #050505;
+		height: 100%
+		--background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		--filter: grayscale(100%) blur(1px);
+	}
+	
+	summary {
+		color: White;
+		text-shadow: 1px 1px DarkSlateBlue;
+	}
+		
+	a {
+		color: Silver; /*Цвет ссылок*/;
+		a:visited color: #cecece; /*Цвет посещенных ссылок*/;
+		a:active color: #ffff00; /*Цвет активных ссылок*/;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		color: LavenderBlush;
+		background: LightSlateGrey;	
+		border-radius: 2px;
+		padding: .1em;
+		--font-size: 1vw;
+	}
+	
+	.grayscale {
+		filter: grayscale(0.85);
+		--filter: grayscale(0.85) blur(1px);
+		transition: 0.3s;
+		padding-right: 15px;
+	}
+		
+	.grayscale:hover {
+		filter: grayscale(0);
+	}
+	
+	#grid { 
+		display: grid;
+		--grid-template-rows: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-gap: 0.3vw;
+	}
+
+	#grid > div {
+		border-radius: 5px;
+		padding: .5em;
+		margin: 2px 2px 5px 0px;
+		font-size: 0.8vw;
+		text-align: left;
+		--background: rgba(128, 128, 128, 0.4);
+		--background: linear-gradient(rgba(105, 105, 105, 0.4) 32px, rgba(128, 128, 128, 0.5) 10%);	
+		--background: linear-gradient(rgba(65, 74, 91, 1) 32px, rgba(112, 128, 144, 0.35) 10%);
+		--background: linear-gradient(rgba(100, 100, 100, 0.5) 32px, rgba(65, 65, 65, 0.4) 10%);
+		background: linear-gradient(rgba(60, 60, 60, 0.5) 32px, rgba(45, 45, 45, 0.2) 1%);
+		
+	}
+	
+	ol, ul {
+		padding: 0; /* Убираем поля */
+		margin-left: 18px; /* Отступ слева */
+		color: Gray;
+		line-height: 1.25
+	}
