@@ -19,17 +19,17 @@ body {
 	--height: min-content;
 }
 
-.top {      
-	background-color: #151515;	
+.top {
+	background-color: #151515;
 	top: 0;
 	padding: 5px;
-	position: sticky;	
+	position: sticky;
 	margin: 0px 5px;
-	z-index: 100;	
+	z-index: 100;
 }
 
 .top a:hover {
-    background: none; /* или background: transparent; */
+	background: none; /* или background: transparent; */
 }
 	
 .grayscale {
@@ -67,6 +67,11 @@ body {
 summary {
 	color: white;
     text-shadow: 1px 1px DarkSlateBlue;	
+}
+
+#grid > div:hover {
+	background-color: #202020;
+    --text-shadow: 1px 1px DarkSlateBlue;	
 }
 
 ol, ul {
