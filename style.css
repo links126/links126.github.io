@@ -64,14 +64,14 @@ body {
 	background: linear-gradient(rgba(60, 60, 60, 0.5) 32px, rgba(45, 45, 45, 0.2) 1%);	
 }
 
-summary {
-	color: white;
-    text-shadow: 1px 1px DarkSlateBlue;	
-}
-
 #grid > div:hover {
 	background-color: #121212;
     --text-shadow: 1px 1px DarkSlateBlue;	
+}
+
+summary {
+	color: white;
+    text-shadow: 1px 1px DarkSlateBlue;	
 }
 
 ol, ul {
