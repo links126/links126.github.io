@@ -70,9 +70,8 @@ summary {
 }
 
 #grid > div:hover {
-	background-color: #202020;
-    --text-shadow: 1px 1px DarkSlateBlue;
-	
+	background-color: #121212;
+    --text-shadow: 1px 1px DarkSlateBlue;	
 }
 
 ol, ul {
