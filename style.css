@@ -90,6 +90,28 @@ a:hover {
 	--font-size: 1vw;
 }
 
+@media screen and (max-width: 1280px) {
+	.grid_container {
+		display: grid;		
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 0.3vw;
+		margin: 0px 5px;
+		--margin-left: auto;
+        --margin-right: auto;		
+	}
+
+	.details {
+		border-radius: 5px;
+		padding: .5em;	
+		margin: 2;
+		font-size: 12px;
+		text-align: left;
+		border: 1px solid #151515;
+		--background: linear-gradient(rgba(60, 60, 60, 0.5) 32px, rgba(45, 45, 45, 0.2) 1%);	
+		background: rgba(45, 45, 45, 0.2);
+	}
+}
+
 @media screen and (max-width: 960px) {
 	.grid_container {
 		display: grid;		
