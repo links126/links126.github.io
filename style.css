@@ -1,7 +1,7 @@
 body {    
     --overflow: hidden; /* Используйте overflow: hidden, чтобы избежать лишней полосы прокрутки на body */
 	overflow-y: auto;
-	background-color: #050505;	
+	background-color: #050505;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -87,6 +87,7 @@ a:hover {
 	background: LightSlateGrey;
 	border-radius: 2px;
 	padding: .1em;
+	--padding: 1px;
 	--font-size: 1vw;
 }
 
@@ -106,8 +107,7 @@ a:hover {
 		margin: 2;
 		font-size: 12px;
 		text-align: left;
-		border: 1px solid #151515;
-		--background: linear-gradient(rgba(60, 60, 60, 0.5) 32px, rgba(45, 45, 45, 0.2) 1%);	
+		border: 1px solid #151515;		
 		background: rgba(45, 45, 45, 0.2);
 	}
 }
@@ -117,9 +117,7 @@ a:hover {
 		display: grid;		
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 0.3vw;
-		margin: 0px 5px;
-		--margin-left: auto;
-        --margin-right: auto;		
+		margin: 0px 5px;		
 	}
 
 	.details {
@@ -128,8 +126,7 @@ a:hover {
 		margin: 2;
 		font-size: 12px;
 		text-align: left;
-		border: 1px solid #151515;
-		--background: linear-gradient(rgba(60, 60, 60, 0.5) 32px, rgba(45, 45, 45, 0.2) 1%);	
+		border: 1px solid #151515;		
 		background: rgba(45, 45, 45, 0.2);
 	}
 }
@@ -150,8 +147,7 @@ a:hover {
 		margin: 2;
 		font-size: 12px;
 		text-align: left;
-		border: 1px solid #151515;
-		--background: linear-gradient(rgba(60, 60, 60, 0.5) 32px, rgba(45, 45, 45, 0.2) 1%);	
+		border: 1px solid #151515;		
 		background: rgba(45, 45, 45, 0.2);
 	}
 }
