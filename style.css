@@ -49,12 +49,11 @@ body {
 }
 
 .details {
-	border-radius: 5px;
-	padding: .5em;	
+	border-radius: 5px;	
+	padding: 3px 10px;	
 	margin: 2px 2px 5px 0px;	
 	font-size: 14px;
-	text-align: left;	
-	--background: linear-gradient(rgba(60, 60, 60, 0.5) 32px, rgba(45, 45, 45, 0.2) 1%);	
+	text-align: left;
 	background: rgba(45, 45, 45, 0.2);
 }
 
@@ -62,13 +61,16 @@ body {
 	background-color: #1a1a1a;
 }
 
+
 .summary {
-	background: rgba(45, 45, 45, 0.6);
-	text-shadow: 1px 1px DarkSlateBlue;
-	color: white;
-	--padding: 1px;	
+	padding: 3px 10px;	
 	--margin: 3px;
+	border-radius: 5px;	
+	text-shadow: 1px 1px DarkSlateBlue;
+	background: rgba(45, 45, 45, 0.8);	
+	color: LavenderBlush;	
 }
+
 
 ol, ul {
 	padding: 0; /* Убираем поля */
