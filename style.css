@@ -1,9 +1,31 @@
-body {    
+@font-face {
+    font-family: 'Bowler';
+    src: url('./fonts/Bowler.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DaMiOne';
+    src: url('./fonts/DaMiOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Imprint MT';
+    src: url('./fonts/IMPRISHA.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'Involve-Medium';
+    src: url('./fonts/Involve-Medium.ttf') format('truetype');
+}
+
+body {
     --overflow: hidden; /* Используйте overflow: hidden, чтобы избежать лишней полосы прокрутки на body */
 	overflow-y: auto;
 	background-color: #050505;
 	background-repeat: no-repeat;
 	background-size: cover;
+	font-family: 'Involve-Medium', sans-serif;
+	font-size: 10px;
 }
 
 .hot_links {
@@ -55,12 +77,13 @@ body {
 	font-size: 14px;
 	text-align: left;
 	background: rgba(45, 45, 45, 0.2);
+	font-size: 12px;
 }
 
 .details:hover {
 	background-color: #1a1a1a;
+	cursor: pointer;
 }
-
 
 .summary {
 	padding: 3px 10px;	
@@ -68,7 +91,7 @@ body {
 	border-radius: 5px;	
 	text-shadow: 1px 1px DarkSlateBlue;
 	background: rgba(45, 45, 45, 0.8);	
-	color: LavenderBlush;	
+	color: LavenderBlush;
 }
 
 
@@ -76,7 +99,7 @@ ol, ul {
 	padding: 0; /* Убираем поля */
 	margin-left: 18px; /* Отступ слева */
 	color: Gray;
-	line-height: 1.25
+	line-height: 1.5;
 }
 
 a {
@@ -88,14 +111,14 @@ a:hover {
 	color: LavenderBlush;
 	background: LightSlateGrey;
 	border-radius: 2px;
-	padding: .1em;
+	padding: 1px 1px;
 	--padding: 1px;
 	--font-size: 1vw;
 }
 
 @media screen and (max-width: 1280px) {
 	.grid_container {
-		display: grid;		
+		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		grid-gap: 0.3vw;
 		margin: 0px 5px;
