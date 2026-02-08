@@ -90,13 +90,21 @@ body {
 	color: LavenderBlush;	
 }
 
+.summaryGroup {
+	color: LightCyan;
+	font-weight: 550;
+}
 
-ol, ul {	
+
+ol, ul {
 	--padding-left: 25px;
-	padding: 5px 2px 5px 25px;
+	--margin: 0px;
+	margin-top: 1px;
+	padding: 5px 3px 5px 25px;
 	color: rgb(143, 143, 143);
 	line-height: 1.5;
 }
+
 
 .board {
 	margin-left: 10px;
@@ -113,11 +121,11 @@ ol, ul {
 
 .details:hover .summary{	
 	background: rgba(55, 67, 99, 0.8);
-	--box-shadow: 0 0 3px rgb(102, 128, 153);
+	box-shadow: 0 0 2px rgb(230, 230, 230);
 }
 .details:hover .board {	
 	background: rgba(55, 67, 99, 0.35);
-	--box-shadow: 0 0 3px rgb(102, 128, 153);
+	box-shadow: 0 0 2px rgb(157, 158, 224);
 }
 
 a {
@@ -125,14 +133,39 @@ a {
 	text-decoration: none;
 }
 
-a:hover /*,summary:hover*/ {
-	color: LavenderBlush;
+a:hover ,summary:hover {
+	color: LavenderBlush;	
+	--text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
 	background: LightSlateGrey;
 	border-radius: 2px;
-	padding: 1px 1px;
-	--padding: 1px;
-	--font-size: 1vw;
+	--padding: 1px 1px;
 }
+
+.hr_head {
+	border: none;	/* Убираем стандартную рамку */
+	height: 3px; /*Толщина линии*/
+	width: 100%; /* Задаёт длину линии */
+	margin: 3px 0;	/* Отступы сверху и снизу */
+	background-color: rgb(187, 187, 187);	/* Цвет (если нет border) */
+}
+
+hr {
+	border: none; /* Убираем стандартную рамку */
+	height: 1px; /* Толщина линии */
+	margin-left: -5%;
+	margin-right: 5%;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	--width: 95%; /* Задаёт длину линии */	
+	background-color: rgb(50, 50, 50);
+	--background-color: rgb(0, 0, 0);
+}
+
+dd {
+	margin-left: 15px;	
+}
+
+
 
 @media screen and (max-width: 1280px) {
 	.grid_container {
