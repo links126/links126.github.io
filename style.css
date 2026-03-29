@@ -21,7 +21,7 @@
 body {
     --overflow: hidden; /* Используйте overflow: hidden, чтобы избежать лишней полосы прокрутки на body */
 	overflow-y: auto;
-	background-color: #050505;
+	background-color: #020202;
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Involve-Medium', sans-serif;
