@@ -84,9 +84,9 @@ body {
 .summary {
 	padding: 5px 8px; /*отступы внутри заголовка блока*/
 	--margin: 3px;
-	border-radius: 5px;	
+	border-radius: 5px;
 	text-shadow: 1px 1px DarkSlateBlue;
-	background: rgba(45, 45, 45, 0.8);	
+	background: rgba(45, 45, 45, 0.8);
 	color: LavenderBlush;	
 }
 
@@ -103,6 +103,10 @@ ol, ul {
 	padding: 5px 3px 5px 25px;
 	color: rgb(143, 143, 143);
 	line-height: 1.5;
+}
+
+ul {
+	list-style: none;
 }
 
 
